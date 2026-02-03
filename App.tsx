@@ -147,10 +147,22 @@ const App: React.FC = () => {
               <span>{isHumanMode ? "View: Human" : "View: AI"}</span>
             </button>
             
-            <a href="https://dev.to/suckup_de/the-system-inspector-we-need-to-approve-the-code-5agc" target="_blank" rel="noopener noreferrer" className="text-xs border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-500 font-medium whitespace-nowrap">
+            <a 
+              href="https://dev.to/suckup_de/the-system-inspector-we-need-to-approve-the-code-5agc" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Read the original blog post on Dev.to"
+              className="text-xs border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-500 font-medium whitespace-nowrap"
+            >
               📖 BLOG POST
             </a>
-            <a href="https://github.com/voku/TheSystemInspector" target="_blank" rel="noopener noreferrer" className="text-xs border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-500 font-medium whitespace-nowrap">
+            <a 
+              href="https://github.com/voku/TheSystemInspector" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Contribute to the project on GitHub"
+              className="text-xs border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-500 font-medium whitespace-nowrap"
+            >
               🔗 CONTRIBUTE
             </a>
           </div>
