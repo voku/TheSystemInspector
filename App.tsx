@@ -147,8 +147,11 @@ const App: React.FC = () => {
               <span>{isHumanMode ? "View: Human" : "View: AI"}</span>
             </button>
             
-            <a href="https://dev.to/suckup_de/the-system-inspector-we-need-to-approve-the-code-217" target="_blank" rel="noopener noreferrer" className="text-xs border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-500 font-medium whitespace-nowrap">
-              SOURCE_DATA
+            <a href="https://dev.to/suckup_de/the-system-inspector-we-need-to-approve-the-code-5agc" target="_blank" rel="noopener noreferrer" className="text-xs border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-500 font-medium whitespace-nowrap">
+              📖 BLOG POST
+            </a>
+            <a href="https://github.com/voku/TheSystemInspector" target="_blank" rel="noopener noreferrer" className="text-xs border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50 hover:text-blue-600 transition-colors text-slate-500 font-medium whitespace-nowrap">
+              🔗 CONTRIBUTE
             </a>
           </div>
         </div>
@@ -251,7 +254,7 @@ const App: React.FC = () => {
                 </p>
                 <div className="bg-slate-900 p-4 rounded border border-slate-800 mt-6 shadow-xl">
                   <p className={`font-mono text-xs md:text-sm ${isHumanMode ? 'text-amber-300' : 'text-blue-300'}`}>
-                    > git diff role_description.md<br/>
+                    {'> git diff role_description.md'}<br/>
                     <span className="text-red-400">- Title: Software Engineer (Writer)</span><br/>
                     <span className="text-emerald-400">+ Title: System Inspector (Approver)</span><br/>
                     <span className="text-slate-500"># {isHumanMode ? "We must shift from creation to verification." : "You are now the gatekeeper of my chaos."}</span>
