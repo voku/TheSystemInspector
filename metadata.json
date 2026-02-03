@@ -1,0 +1,5 @@
+{
+  "name": "The System Inspector",
+  "description": "An interactive, narrative-driven web app exploring the shift from coding to system inspection in the age of AI, presented from the perspective of the LLM itself.",
+  "requestFramePermissions": []
+}
